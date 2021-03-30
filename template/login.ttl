@@ -1,0 +1,1 @@
+connect '${my_ip} /ssh /auth=password /user=${my_username} /passwd=${my_password}'
