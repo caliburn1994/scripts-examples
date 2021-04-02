@@ -1,9 +1,0 @@
-msg='127.0.0.1:2222 /ssh /auth=publickey /user=vagrant '
-
-;;key
-strconcat msg '/keyfile='
-getdir keyfile
-strconcat keyfile '.\.vagrant\machines\default\virtualbox\private_key '
-strconcat msg keyfile
-
-connect msg
