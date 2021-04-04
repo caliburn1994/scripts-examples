@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# get route ip and write it into file.
 
 SERVICE_NAME="get-router-ip.service"
 SERVICE_TIMER_NAME="get-router-ip.timer"
